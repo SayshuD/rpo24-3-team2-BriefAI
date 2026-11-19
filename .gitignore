@@ -1,0 +1,29 @@
+# Настройки и секреты
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Модели и данные
+*.gguf
+*.bin
+*.safetensors
+*.pt
+chroma_db/
+data/raw/
+
+# Системное и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
